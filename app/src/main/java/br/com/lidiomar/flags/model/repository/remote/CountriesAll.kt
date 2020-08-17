@@ -1,4 +1,4 @@
-package br.com.lidiomar.flags.model.remote
+package br.com.lidiomar.flags.model.repository.remote
 
 import br.com.lidiomar.flags.model.data.Country
 import retrofit2.Response

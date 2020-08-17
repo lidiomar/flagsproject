@@ -11,11 +11,11 @@ data class DataResource<out T>(val status: Status, val data: T?, val message: St
             return DataResource(Status.SUCCESS, data, null)
         }
 
-        fun <T> error(message:String): DataResource<T> {
+        fun <T> error(message: String): DataResource<T> {
             return DataResource(Status.ERROR, null, message)
         }
 
-        fun <T> loading(message:String): DataResource<T> {
+        fun <T> loading(message: String): DataResource<T> {
             return DataResource(Status.LOADING, null, null)
         }
     }

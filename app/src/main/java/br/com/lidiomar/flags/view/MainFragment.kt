@@ -8,10 +8,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.observe
-import br.com.lidiomar.flags.viewmodel.MainViewModel
 import br.com.lidiomar.flags.R
 import br.com.lidiomar.flags.utils.DataResource
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainFragment : Fragment() {
     private val viewModel: MainViewModel by viewModels()
 

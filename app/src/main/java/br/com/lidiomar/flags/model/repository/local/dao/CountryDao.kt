@@ -1,4 +1,4 @@
-package br.com.lidiomar.flags.model.local.dao
+package br.com.lidiomar.flags.model.repository.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
